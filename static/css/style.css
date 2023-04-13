@@ -1,0 +1,92 @@
+.container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+#start-button {
+  background-color: #4CAF50; /* ตั้งค่าสีพื้นหลังปุ่ม */
+  border: none; /* ลบเส้นขอบ */
+  color: white; /* ตั้งค่าสีตัวอักษร */
+  padding: 10px 20px; /* ตั้งค่าขนาดของปุ่ม */
+  text-align: center; /* จัดข้อความอยู่ตรงกลาง */
+  text-decoration: none; /* ไม่ต้องมีเส้นขีดเส้นใต้ข้อความ */
+  display: inline-block; /* แสดงปุ่มเป็นบล็อกอิง */
+  font-size: 16px; /* ตั้งค่าขนาดตัวอักษร */
+  margin: 20px auto 0; /* ตั้งค่าระยะห่างของปุ่ม */
+  border-radius: 5px; /* ตั้งค่าเส้นขอบปุ่มเป็นรูปวงกลม */
+}
+
+#result {
+  background-color: #f44336; /* เปลี่ยนสีพื้นหลังเป็นสีแดง */
+  color: white; /* ตัวอักษรเป็นสีขาว */
+  border-radius: 5px; /* เพิ่มขอบมนสีเป็นวงกลม */
+  text-align: center; /* จัดข้อความอยู่ตรงกลาง */
+  margin-top: 20px; /* เพิ่มระยะห่างด้านบน 20px */
+}
+
+#reset-button {
+  background-color: #4CAF50; /* ตั้งค่าสีพื้นหลังปุ่ม */
+  border: none; /* ลบเส้นขอบ */
+  color: white; /* ตั้งค่าสีตัวอักษร */
+  padding: 10px 20px; /* ตั้งค่าขนาดของปุ่ม */
+  text-align: center; /* จัดข้อความอยู่ตรงกลาง */
+  text-decoration: none; /* ไม่ต้องมีเส้นขีดเส้นใต้ข้อความ */
+  display: inline-block; /* แสดงปุ่มเป็นบล็อกอิง */
+  font-size: 16px; /* ตั้งค่าขนาดตัวอักษร */
+  margin: 20px auto 0; /* ตั้งค่าระยะห่างของปุ่ม */
+  border-radius: 5px; /* ตั้งค่าเส้นขอบปุ่มเป็นรูปวงกลม */
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
